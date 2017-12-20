@@ -1,0 +1,36 @@
+/* add your CSS here */
+body {
+  height: 530px;
+  width: 320px;
+  border: 1px solid lightgray;
+  box-shadow: 7px 5px 5px lightgray;
+}
+
+.card {
+  margin-left: 10px;
+}
+
+.foxPic {
+  width: 300px;
+  height: 200px;
+}
+
+.cardText {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.interesting {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+span {
+  font-weight:bold;
+}
