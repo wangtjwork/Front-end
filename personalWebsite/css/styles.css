@@ -37,6 +37,14 @@ header {
   -webkit-margin-after: 0.1em;
 }
 
+hr {
+  border-color: #7d97ad;
+}
+
+.first-image {
+  width: 100%;
+}
+
 .works {
   color: #7d97ad;
   font-size: 1.3em;
@@ -55,11 +63,11 @@ header {
   width: 280px;
 }
 
-.productImage {
+.product-image {
   height: 180px;
 }
 
-.productDescriptions {
+.product-descriptions {
   text-align: center;
   text-transform: uppercase;
 }
@@ -71,4 +79,91 @@ a {
 .details {
   font-size: 11px;
   text-transform: none;
+}
+
+@media screen and (min-width: 1001px) {
+  body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* reorganizing the product to always show horizontally */
+  .product {
+    width: 32%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .first-product {
+    padding-left: 0;
+  }
+
+  .last-product {
+    padding-right: 0;
+  }
+
+  .details {
+    font-size: 12px;
+  }
+
+  a {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* reorganizing the header to be shown vertically */
+  header {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin-top: 0;
+  }
+
+  .name,
+  .title {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 1.5em;
+  }
+
+  .title {
+    font-size: 0.8em;
+  }
+
+  /* reorganizing the products to be shown vertically, also adjusting the order shown */
+  .product {
+    width: 100%;
+  }
+
+  .product:nth-child(1) {
+    order: -1;
+  }
+
+  .product:nth-child(2) {
+    order: -2;
+  }
+
+  .product-image {
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  a {
+    font-size: 0.6em;
+  }
+
+  .details {
+    font-size: 10px;
+  }
 }
