@@ -1,0 +1,21 @@
+[submodule "myreads"]
+	path = myreads
+	url = https://github.com/wangtjwork/reactnd-project-myreads-starter
+[submodule "mobile-restaurant"]
+	path = mobile-restaurant
+	url = https://github.com/wangtjwork/mws-restaurant-stage-1
+[submodule "feedreader"]
+	path = feedreader
+	url = https://github.com/wangtjwork/frontend-nanodegree-feedreader
+[submodule "arcade-game"]
+	path = arcade-game
+	url = https://github.com/wangtjwork/frontend-nanodegree-arcade-game
+[submodule "memory-game"]
+	path = memory-game
+	url = https://github.com/wangtjwork/fend-project-memory-game
+[submodule "pixel-maker"]
+	path = pixel-maker
+	url = https://github.com/wangtjwork/project-pixel-art-maker-starter
+[submodule "course-collaboration-travel-plans"]
+	path = course-collaboration-travel-plans
+	url = https://github.com/wangtjwork/course-collaboration-travel-plans
